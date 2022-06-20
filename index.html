@@ -7,9 +7,20 @@
     <title>Example</title>
     <!-- Style -->
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 <body>
-    <h1>Title One</h1>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod, eos nostrum similique sint voluptatum sequi, nemo aut deserunt tempora earum beatae, incidunt corrupti. Adipisci, iusto assumenda commodi ex optio placeat!</p>
+    <h1>User login</h1>
+    <div class="form-floating mb-3">
+        <input type="email" class="form-control" id="floatingInput" placeholder="Inserisci il tuo email">
+        <label for="floatingInput">Email adress</label>
+    </div>
+    <div class="form-floating mb-3">
+        <input type="password" class="form-control" id="floatingInput" placeholder="Password">
+        <label for="floatingInput">Password</label>
+    </div>
+    <button type="button" class="btn btn-primary">Success!</button>
 </body>
 </html>
